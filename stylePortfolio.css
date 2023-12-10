@@ -1,0 +1,232 @@
+html{
+  background-color: black;
+  font-family: 'Comfortaa', "Arial";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  
+
+  height: 100vh;
+
+
+}
+
+
+
+.container {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    
+    height: 80vh;
+    
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    flex: 1;
+
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    position: relative;
+    transition: all 500ms ease-in-out;
+    border: #8A8A8A 3px solid;
+    border-radius: 20px;
+}
+
+.slideTitle{
+  display: flex;
+  align-items: center;
+
+  font-family: "Arial";
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 80px;
+  word-wrap:break-word;
+  width: 2rem;
+  
+}
+span{
+  display: block;
+}
+
+.slideTitle-full{
+  display: none;
+}
+
+.slide.active .slideTitle-full{
+
+  font-family: "Arial";
+  text-transform: uppercase;
+  display: block;
+
+  opacity: 1;
+  transition: 0.3s ease-in ;
+
+  font-size: 2rem;
+  word-wrap: unset;
+  width: auto;
+
+}
+.slide .slideTitle-full{
+  display:none;
+
+
+}
+
+.slide.active .slideTitle{
+  
+  
+  display: none;
+  
+  }
+
+
+.slide.active{
+  
+  
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.ProjectTitle{
+  display: none;
+}
+
+.slide.active .ProjectTitle{
+  display: block;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.slide.active span{
+  
+  
+display: block;
+
+}
+
+.slide.active h3{
+  display: block;
+
+  opacity: 1;
+  transition: 0.3s ease-in ;
+
+  font-size: 2rem;
+  word-wrap: unset;
+  width: auto;
+
+}
+
+.slide.active .BTN{
+  display: block;
+}
+
+
+
+
+.BTN{
+  display: none;
+  text-transform: capitalize;
+  position: relative;
+  bottom: 1rem;
+  right: 0px;
+  font-size: 1.5rem;
+  width: auto;
+  height: 3rem;
+  color: white;
+  background-color: #010101;
+  border: #8A8A8A solid 3px;
+  border-radius: 20px;
+  
+}
+
+.BTN a{
+  padding: 5px;
+}
+
+
+.one{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI1.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.two{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI2.png);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.three{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI3.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.four{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI4.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.five{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI5.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.six{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI6.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.seven{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI7.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.eight{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI8.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nine{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(img/AI9.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

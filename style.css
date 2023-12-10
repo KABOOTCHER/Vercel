@@ -1,0 +1,247 @@
+html{
+	min-height: 100%;
+	background-color: black;
+    color: white;
+    font-size: 18px;
+    font-family: 'Comfortaa', "Arial";
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    margin: 0;
+}
+
+h2{
+    margin: 0;
+}
+li{
+    margin: 1rem;
+   
+}
+ul{
+    padding: 0;
+}
+
+
+.header{
+    padding: 0 10%;
+    height: 92px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+.logo{
+    height: 65px;
+}
+
+.navWrapper a{
+    padding: 0 1rem;
+
+}
+a:hover{
+
+    text-decoration: underline white 2px;
+}
+
+.FirstBlock{
+    padding: 0 10%;
+    background-image: url("img/BG_main.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.MainTitle{
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.AboutBlock{
+    background-color: #101010;
+    padding: 0 10% 150px 10%;
+
+}
+.HeadTitle{
+    padding: 150px 0;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.AboutInfo{
+    display: flex;
+}
+.AboutText{
+    width: 500px;
+    margin-left: 3rem;
+}
+
+.AboutSelf{
+    width: 500px;
+}
+
+.AboutSelf p{
+    margin: 1rem 0;
+}
+.AboutSelf :first-child{
+    margin-top: 0;
+}
+.imgWrapper{
+    margin-right: 3rem;
+    padding: 5px;
+    border: #8A8A8A solid 3px;
+    border-radius: 40px;
+}
+
+
+
+.SkillContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    align-items: stretch;
+    gap:3rem;
+}
+
+.Skill{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: auto;
+    border: #8A8A8A 3px solid;
+    border-radius: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+  
+
+}
+
+.SkillBlock{
+    padding: 0 10% 150px 10%;
+}
+
+.Skill img{
+    height: 225px;
+    width: fit-content;
+    border-bottom: #8A8A8A 3px solid;
+
+}
+
+.SkillTitle{
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.ExperienceBlock{
+    
+    background-color: #101010;
+    margin-bottom: 150px;
+    padding: 0 10% 150px 10%;
+}
+.ExperienceWrapper{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    justify-items: center;
+    align-items: stretch;
+    gap:3rem;
+}
+.footer{
+    padding: 0 10%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    align-items: center;
+}
+
+.contacts img{
+    width: 55px;
+}
+
+.contacts{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.demoWrap img{
+    width: 750px;
+    border: 10px white solid;
+    border-radius: 20px;
+}
+.demoWrap{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3rem;
+}
+.ProjectText p{
+    margin: 1rem 0;
+}
+.demoBlock{
+   padding-bottom: 150px;
+}
+
+.IdeaText{
+    width: 380px;
+}
+
+.SecondBlock{
+    padding: 150px 10% 0 10% ;
+    margin-bottom: 150px;
+    background-color: #101010;
+   
+}
+
+.titleWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.titleWrap p{
+    padding: 0;
+    margin: 0;
+}
+
+.IdeaBlock{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+figcaption{
+    opacity: 0.5;
+    text-align: center;
+}
+
+.logoButton{
+    border: none;
+}
+
+.ProjectDEMO{
+    width: 600px;
+    height: 400px;
+}
+
+.AIimg{
+    width:500px ;
+    height:500px ;
+}
